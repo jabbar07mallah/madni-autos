@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Madni Autos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            color: #f39c12;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .my-bike-services {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .my-bike-services img {
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .info {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        #about {
+            background-image: url("one.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        #services {
+            background-image: url("bike1.jpg");
+            background-size: cover;
+            background-position: center;
+            color: black;
+            min-height: 600px;
+        }
+
+        #contact {
+            background-image: url("jabbar.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Madni Autos</h1>
+        <p>Best Auto Repair & Services Shop</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p class="info">
+            Owner: Abdul Jabbar Mallah <br>
+            We provide reliable and professional auto repair services with expert mechanics and quality work.
+        </p>
+    </div>
+
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+
+        <p class="info">
+            Bike Repairing <br>
+            Engine Service <br>
+            Oil Change <br>
+            General Maintenance
+        </p>
+
+        <div class="my-bike-services">
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+            <div><img src="one.jpg" alt="Bike"></div>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Information</h2>
+
+        <p class="info">
+            Address: Near Bank Al Habib Hingorja <br>
+            Contact Number: 03252273345
+        </p>
+    </div>
+
+    <footer>
+        <p>© 2026 Madni Autos | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

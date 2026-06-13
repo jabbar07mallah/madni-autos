@@ -1,0 +1,198 @@
+<!Doctype html>
+ <head>
+	<title> Madni Autos | Home</title>
+	<link rel="icon" type="image/x-icon" href="b.png">
+	<style>
+	body{
+		font-family:Arial,sans-serif;
+		background:#f4f4f4;
+	}
+	header{
+		color:white;
+		padding:40px;
+		text-align:center;
+		border-radius: 30px;
+		background-image:url("about-us.png");
+		background-position: top left	;
+	}
+	header h1 {
+		margin:0;
+		font-size:60px;
+		color:#f39c12;
+	}
+	nav{
+		background:#333;
+		padding:10px;
+		text-align:center;
+		border-radius: 30px;
+		margin-top:5px;
+	}
+	header, nav {
+		margin-right:10px;
+		margin-left:10px;
+	}
+	nav a {
+		color:white;
+		margin:0 15px;
+		text-decoration:none;
+		font-size:18px;
+	}
+	nav a:hover {
+		color:#f39c12;
+		font-weight: bolder;
+		text-decoration: underline;
+	}
+	.hero {
+		padding:60px;
+		text-align:center;
+		background:url('https://image.unsplash.com/photo-1603386329225-868f91ee6c9')
+		no-repeat center;
+		background-size:cover;
+		color:white;
+	}
+	.hero h2 {
+		font-size:45px;
+	}
+	.section {
+		padding:40px;
+		text-align:center;
+		background:white;
+		margin:10px;
+		border-radius:10px;
+	} 
+	div#services.section {
+		margin:5px 10px;
+	}
+	.my-bike-services {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		margin:10px 10px;
+
+	}
+	
+	.my-bike-services .service-img {
+		width:250px;
+		height:220px;
+		border:2px solid blue;
+		border-radius:10%;
+		margin:10px 30px;
+	}
+	
+	/* .my-bike-services .oil {
+		background-position: center center;
+		height: 220px;
+		
+	}  */
+	
+	footer{
+		background:#111;
+		color:white;
+		text-align:center;
+		padding:20px;
+		margin-top:20px;
+		border-radius: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	info{
+		font-size:18px;
+		line-height:1.8;
+	}
+	#about {
+		background-image:url("one.jpg" );
+		color:white;
+		font-family:capitalize;
+		
+	}
+	#services {
+		background-image:url("bike1.jpg");
+		color:black;
+		margin:5px 20px;
+	}
+	#Contact {
+		background-image:url("jabbar.jpg");
+		color:white;
+	}
+	
+	.services-container{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		
+	
+	}
+	
+	.services-container .service-item{
+		padding:10px 20px;
+		font-size:20px;
+		font-weight:bolder;
+		margin:10px 20px;
+		border:3px solid black;
+		border-radius:20px;
+	}
+	 
+	.services-container .service-item:hover{
+		color:white;
+		background-color:black;
+	}
+	.copyright-info {
+		border-radius: 30px;
+	}
+	
+	</style>
+ </head>
+ <body>
+	<header class="header-section">
+		<h1> Madni Autos </h1>
+		<p> Best Auto Repair & Services Shop </p>
+	</header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="serves.html">Services</a>
+		<a href="contact.html">Contact</a>
+	</nav>
+	
+	<div class="section" id="about">
+	<h2>About Us</h2>
+	<p class="info">
+		Owner :Abdul Jabbar Mallah <br>
+		We provide reliable and professional auto repair services with expert mechanics and quility work
+	</p>
+	</div>
+	<div class ="section" id="services">
+    		<h2> Our services </h2>
+			<div class="services-container">
+				<div class="service-item"> Bike Reparing</div>
+				<div class="service-item">Engine service</div>
+				<div class="service-item">Oil Change </div>
+				<div class="service-item">General Maintenance</div>
+				
+			</div>
+    	
+		<div class="my-bike-services">
+			<div><img src="parts.jpg" class="service-img"></div>
+			<div><img src="b.png" class="service-img"></div>
+			<div><img src="bike-tools.jpg" class="service-img oil"></div>
+			
+			<!-- <div><img src="one.jpg"></div>
+			<div><img src="one.jpg"></div>
+			<div><img src="one.jpg"></div>
+			<div><img src="one.jpg"></div>
+			<div><img src="one.jpg"></div>
+			-->
+		</div>
+	</div>
+	<div class="section" id="Contact">
+	<h2> Contact Information </h2>
+	<p class="info">
+		You can get in touch with us physcially at <b>Near Bank Al Habib Hingorja</b> or by dialling: +923252273345.
+	</p>
+	</div>
+	<footer>
+		<p class="copyright-info"> @ 2026 Madni Autos || All Rights Reserved </p>
+	</footer>
+</body>
+</html>
+    	

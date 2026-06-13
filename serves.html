@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="b.png">
+<title>Madni Autos | Services</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+    }
+
+    /* Header */
+    header{
+        background:#111;
+        color:white;
+        padding:40px;
+        text-align:center;
+        border-radius:20px;
+        margin:10px;
+    }
+
+    header h1{
+        color:#f39c12;
+        font-size:55px;
+        margin-bottom:10px;
+    }
+
+    header p{
+        font-size:20px;
+    }
+
+    /* Navigation */
+    nav{
+        background:#333;
+        padding:15px;
+        text-align:center;
+        border-radius:20px;
+        margin:0 10px;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-size:18px;
+    }
+
+    nav a:hover{
+        color:#f39c12;
+        text-decoration:underline;
+    }
+
+    /* Services Section */
+    .services-section{
+        background:white;
+        margin:20px 10px;
+        padding:40px;
+        border-radius:15px;
+        text-align:center;
+    }
+
+    .services-section h2{
+        font-size:40px;
+        color:#f39c12;
+        margin-bottom:15px;
+    }
+
+    .services-description{
+        font-size:18px;
+        color:#555;
+        max-width:900px;
+        margin:auto;
+        line-height:1.8;
+        margin-bottom:40px;
+    }
+
+    /* Service Cards */
+    .services-container{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:25px;
+        margin-bottom:40px;
+    }
+
+    .service-item{
+        width:260px;
+        background:#fff;
+        border:2px solid #333;
+        border-radius:15px;
+        padding:20px;
+        transition:0.3s;
+    }
+
+    .service-item h3{
+        color:#f39c12;
+        margin-bottom:10px;
+    }
+
+    .service-item p{
+        color:#444;
+        line-height:1.6;
+    }
+
+    .service-item:hover{
+        background:#333;
+        transform:translateY(-5px);
+    }
+
+    .service-item:hover h3,
+    .service-item:hover p{
+        color:white;
+    }
+
+    /* Images */
+    .my-bike-services{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    .service-img{
+        width:250px;
+        height:350px;
+        border-radius:15px;
+        border:3px solid #f39c12;
+        object-fit:cover;
+        margin:8px 8px;
+    }
+
+    /* Footer */
+    footer{
+        background:#111;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin:10px;
+        border-radius:15px;
+        font-size:18px;
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+        header h1{
+            font-size:40px;
+        }
+
+        .services-section h2{
+            font-size:32px;
+        }
+
+        .service-item{
+            width:100%;
+        }
+
+        .service-img{
+            width:100%;
+            max-width:350px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Madni Autos</h1>
+        <p>Best Auto Repair & Bike Service Shop</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Services Section -->
+    <section class="services-section">
+
+        <h2>Our Services</h2>
+
+        <p class="services-description">
+            At Madni Autos, we offer professional motorcycle repair and
+            maintenance services to keep your bike in excellent condition.
+            Our experienced mechanics ensure quality workmanship, affordable
+            pricing, and customer satisfaction for every service.
+        </p>
+
+        <div class="services-container">
+
+            <div class="service-item">
+                <h3>Bike Repairing</h3>
+                <p>
+                    Complete motorcycle repair services including
+                    troubleshooting, spare part replacement, and performance
+                    restoration.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <h3>Engine Service</h3>
+                <p>
+                    Professional engine tuning, inspection, and repairs to
+                    improve power, fuel efficiency, and reliability.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <h3>Oil Change</h3>
+                <p>
+                    Fast and reliable engine oil replacement using
+                    high-quality lubricants for smooth engine performance.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <h3>General Maintenance</h3>
+                <p>
+                    Routine maintenance including chain adjustment,
+                    brake inspection, tire checks, and battery testing.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Service Images -->
+        <div class="my-bike-services">
+            <img src="service-1.jpg" alt="Bike Service" class="service-img">
+            <img src="service-3.jpg" alt="Bike Repair" class="service-img">
+            <img src="service-4.jpg" alt="Bike Repair" class="service-img">
+            <img src="service-2.jpg" alt="Bike Parts" class="service-img">
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Madni Autos | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
